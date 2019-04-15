@@ -1,0 +1,22 @@
+type Query {
+    vendors : [Vendor]
+    pets : [Pet]
+}
+
+type Pet {
+    id: Int!
+    name: String!
+}
+type Vendor {
+    id : Int
+    name : String
+    ownerName : String
+    address : String
+    city : String
+    state : String
+    country : String
+    createdBy : String
+    createdAt : String
+    updatedBy : String
+    updatedAt : String
+}
